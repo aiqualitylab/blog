@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Quality Lab Blog</title>
+  <meta name="description" content="Blog on AI, QA automation, testing tools, and engineering workflows." />
+  <link rel="icon" type="image/png" href="https://aiqualitylab.org/favicon.png" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css" />
+  <style>
+    :root {
+      --theme-color: #2563eb;
+      --sidebar-width: 280px;
+    }
+
+    .sidebar .sidebar-nav a {
+      font-size: 0.95rem;
+    }
+
+    /* ── Images in posts ── */
+    .markdown-section img {
+      max-width: 100%;
+      border-radius: 8px;
+      margin: 1rem 0;
+      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    /* ── Footer ── */
+    #site-footer {
+      text-align: center;
+      padding: 28px 16px 20px;
+      font-size: 0.82rem;
+      color: #64748b;
+      border-top: 1px solid #e2e8f0;
+      margin-top: 48px;
+    }
+
+    #site-footer a {
+      color: var(--theme-color);
+      text-decoration: none;
+    }
+
+    #site-footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div id="app">Loading...</div>
+
+  <script>
+    window.$docsify = {
+      name: 'AI Quality Lab Blog',
+      repo: 'https://github.com/aiqualitylab',
+      homepage: 'README.md',
+      loadSidebar: '_sidebar.md',
+      loadNavbar: false,
+      subMaxLevel: 2,
+      auto2top: true,
+      search: {
+        maxAge: 86400000,
+        paths: 'auto',
+        placeholder: 'Search posts...',
+        noData: 'No results found.',
+        depth: 3
+      },
+      plugins: [
+        function (hook) {
+          var footer = [
+            '<div id="site-footer">',
+            '  <p>&copy; 2026 AI Quality Lab &middot; <a href="https://www.linkedin.com/in/sreekanthharigovindan/" target="_blank" rel="noopener">Sreekanth Harigovindan</a></p>',
+            '  <p>',
+            '    <a href="https://github.com/aiqualitylab" target="_blank" rel="noopener">GitHub: aiqualitylab</a>',
+            '    &nbsp;&middot;&nbsp;',
+            '    <a href="https://blog.aiqualitylab.org" target="_blank" rel="noopener">blog.aiqualitylab.org</a>',
+            '  </p>',
+            '</div>'
+          ].join('');
+
+          hook.afterEach(function (html) {
+            return html + '<div id="comments"></div>' + footer;
+          });
+
+          hook.doneEach(function () {
+            var commentsEl = document.getElementById('comments');
+            if (commentsEl) {
+              commentsEl.innerHTML = '';
+              var s = document.createElement('script');
+              s.src = 'https://utteranc.es/client.js';
+              s.setAttribute('repo', 'aiqualitylab/blog');
+              s.setAttribute('issue-term', 'pathname');
+              s.setAttribute('theme', 'github-light');
+              s.setAttribute('crossorigin', 'anonymous');
+              s.async = true;
+              commentsEl.appendChild(s);
+            }
+          });
+        }
+      ]
+    };
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-copy-code@2/dist/docsify-copy-code.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-javascript.min.js"></script>
+
+</body>
+</html>
