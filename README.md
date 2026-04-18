@@ -1,6 +1,6 @@
 # AI Quality Lab Blog
 
-Writing about AI, QA automation, testing tools, and engineering workflows.
+My blog where I write about AI, QA automation, and engineering — explained in plain language for everyone, not just developers.
 
 ---
 
