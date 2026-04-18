@@ -3,7 +3,6 @@
 *A simple guide to `copilot --remote` — the new preview feature that lets you watch and guide your Copilot CLI from GitHub.com or the GitHub Mobile app.*
 
 ---
-
 [![GitHub Changelog: Remote control CLI sessions on web and mobile in public preview](../images/copilot-cli-remote-release.png)](https://github.blog/changelog/2026-04-13-remote-control-cli-sessions-on-web-and-mobile-in-public-preview/)
 
 On April 13, GitHub fixed this. The [Copilot CLI changelog](https://github.blog/changelog/2026-04-13-remote-control-cli-sessions-on-web-and-mobile-in-public-preview/) shared a new feature called `copilot --remote`. It lets you check on your CLI session and reply to it from GitHub.com or the GitHub Mobile app. So now you can start a task on your laptop and keep guiding it from your phone.
