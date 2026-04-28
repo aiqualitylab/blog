@@ -6,6 +6,8 @@ My blog where I write about AI, QA automation, and engineering — explained in 
 
 ## Latest Posts
 
+- [QA Bug Triage Pipeline: From App Reviews to Searchable Bug Reports](blog/2026-04-qa-bug-triage-pipeline.md) — *28th April 2026*
+
 - [GitHub Copilot CLI Remote Sessions: Control Your AI Agent From Web and Mobile](blog/2026-04-github-copilot-cli-remote.md) — *17th April 2026*
 
 - [Prompt Injection Attacks Are Breaking AI Products — Here's How to Stop Them](blog/2026-04-Prompt-Injection-Attacks-Are-Breaking-AI-Products.md) — *18th April 2026*
