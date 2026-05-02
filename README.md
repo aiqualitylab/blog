@@ -6,7 +6,7 @@ My blog where I write about AI, QA automation, and engineering — explained in 
 
 ## Latest Posts
 
-- [QA Automation Engineers Are in a Very Good Position Right Now](https://github.com/aiqualitylab/blog/blob/main/blog/2026-05-qa-automation-to-ai-native-testing.md) — *2nd May 2026*
+- [QA Automation Engineers Are in a Very Good Position Right Now](blog/2026-05-qa-automation-to-ai-native-testing.md) — *2nd May 2026*
 
 - [QA Bug Triage Pipeline: From App Reviews to Searchable Bug Reports](blog/2026-04-qa-bug-triage-pipeline.md) — *28th April 2026*
 
