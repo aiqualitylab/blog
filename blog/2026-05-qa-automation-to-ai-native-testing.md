@@ -4,7 +4,7 @@
 
 ---
 
-[![QA Automation to AI-native testing roadmap](/images/qa-ai-native-roadmap.png)](#)
+[![QA Automation to AI-native testing roadmap](../images/qa-ai-native-roadmap.png)](#)
 
 ---
 
