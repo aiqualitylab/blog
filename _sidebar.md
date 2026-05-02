@@ -4,3 +4,4 @@
   - [GitHub Copilot CLI Remote Sessions](blog/2026-04-github-copilot-cli-remote.md)
   - [Prompt Injection Attacks Are Breaking AI Products](blog/2026-04-Prompt-Injection-Attacks-Are-Breaking-AI-Products.md)
   - [QA Bug Triage Pipeline: From App Reviews to Searchable Bug Reports](blog/2026-04-qa-bug-triage-pipeline.md)
+  - [QA → AI-Native Testing](blog/2026-05-qa-automation-to-ai-native-testing.md)
